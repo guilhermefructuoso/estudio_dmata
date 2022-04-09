@@ -4,6 +4,16 @@
     padding-bottom: 40px;
 }
 
+.servicos-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 980px;
+    margin-left: 25%;
+} 
+
 h3{
     color: rgb(35, 21, 86);
     font-size: 3em;
@@ -15,14 +25,7 @@ h3{
 }
 
 
-.pai{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    width: 50%;
-    margin-left: 25%;
-}   
+  
 
 
 .icons{

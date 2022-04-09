@@ -13,13 +13,12 @@ import mic from '../../assets/header.png'
 
  function Header() {
  return (
-   <div className='clearfix'>
-   <div className="header">
+  
+   <div className="header-container">
+
        <div className="h1">
-       <div>
        <h1>O estúdio COMPLETO que você procura!</h1>
        
-       </div>
          <span>Solicite seu orçamento</span>
          <ReactWhatsapp number="5511948246506" message="Olá, gostaria de fazer um orçamento."> 
          <FaWhatsapp size={30}/> WhatsApp </ReactWhatsapp>
@@ -32,7 +31,7 @@ import mic from '../../assets/header.png'
           
    </div>
 
-   </div>
+   
 
    
  );

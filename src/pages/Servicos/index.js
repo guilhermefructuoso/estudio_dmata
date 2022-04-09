@@ -9,7 +9,7 @@ function Servicos() {
    <section id='servicos'>
      <h3>Serviços</h3> 
 
-  <div className='pai'>  
+  <div className='servicos-content'>  
    <div className='icons'>
     
     <div className='icon'>

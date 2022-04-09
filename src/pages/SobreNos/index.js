@@ -6,7 +6,7 @@ import './sobre.css'
 function SobreNos() {
  return (
    <section id='sobrenos'>
-   <div className='title'>
+   <div className='title-container'>
           <h1>Sobre Nós</h1>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting 

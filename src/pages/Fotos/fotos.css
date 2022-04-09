@@ -1,9 +1,11 @@
-#fotos{
-    display: block;
-    box-sizing: border-box;
-    width: 47%;
-    margin-left: 24%;
-    padding-top: 3%;
+.foto-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 950px;
+    margin-left: 25%;
 }
 
 .carousel{
@@ -17,7 +19,7 @@
 
 
 h2{
-    display: block;
+    display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -25,6 +27,4 @@ h2{
     font-size: 25px;
     margin-top: 5%;
     margin-bottom: 3%;
-    margin-left: 6%;
-    width: 88%;
 }

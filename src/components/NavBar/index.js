@@ -8,7 +8,7 @@ export default function NavBar() {
   return (
    <section id="nav">
    <nav>
-    <div className="container">
+    <div className="nav-container">
       <div className="logo">
        <AnchorLink href="#nav"><img src={logo} alt="Sistema Logo" /></AnchorLink>
       </div>

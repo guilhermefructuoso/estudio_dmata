@@ -1,17 +1,20 @@
 import React from 'react';
-import { Carousel } from 'react-responsive-carousel'
+import {Carousel} from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css"
+import 'react-multi-carousel/lib/styles.css';
 import './fotos.css'
 import img1 from '../../assets/img1.jpg'
 import img2 from '../../assets/img2.jpg'
 import img3 from '../../assets/img3.jpg'
 import img4 from '../../assets/img4.jpg'
 
+
 function Fotos() {
  return (
    <section id='fotos'>
+  <div className='foto-content'>
      <h2>Confira nossas fotos!</h2>
-   <div className='carousel'>
+   <div>
    <Carousel> 
    <div>
     <img src={img1} alt="estudio"/>
@@ -30,7 +33,8 @@ function Fotos() {
     <p className="legend">Estudio 2</p>
    </div>
    </Carousel> 
-   </div>  
+   </div>
+   </div>    
    </section> 
  );
 }

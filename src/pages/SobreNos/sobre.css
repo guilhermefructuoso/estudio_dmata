@@ -3,31 +3,28 @@
     padding-top: 120px;
 }
 
-.title{
+.title-container{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     color: #fff;
     font-size: 25px;
-    margin-top: 0;
-    margin-left: 50px;
-    width: 90%;
+    width: 100%;
+    max-width: 1920px;
 }
 
 p{
     font-size: 20px;
-    max-width: 1000px;
+    width: 100%;
+    max-width: 800px;
 }
 
 
 
 video{
-    align-items: center;
-    justify-content: center;
     border-radius: 10px;
-    margin-top: 20px;
-   
+    margin-top: 5%;
 }
 
 

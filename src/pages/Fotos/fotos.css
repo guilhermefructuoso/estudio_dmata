@@ -1,0 +1,30 @@
+#fotos{
+    display: block;
+    box-sizing: border-box;
+    width: 47%;
+    margin-left: 24%;
+    padding-top: 3%;
+}
+
+.carousel{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 10px;
+    
+}
+
+
+h2{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    margin-left: 6%;
+    width: 88%;
+}

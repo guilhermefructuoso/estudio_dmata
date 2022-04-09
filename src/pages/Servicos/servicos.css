@@ -1,0 +1,66 @@
+#servicos{
+    background-image: url(../../assets/bg_services.png);
+    height: max-content;
+    padding-bottom: 40px;
+}
+
+h3{
+    color: rgb(35, 21, 86);
+    font-size: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+
+.pai{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    margin-left: 25%;
+}   
+
+
+.icons{
+    color: rgb(35, 21, 86);
+   
+}
+
+.icons2{
+    color: rgb(35, 21, 86);
+   
+   
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.icon:hover{
+   color: red;
+}
+
+
+
+
+h5{
+   color: rgb(35, 21, 86);
+   font-size: 1em;
+}
+
+
+
+
+
+
+
+
+

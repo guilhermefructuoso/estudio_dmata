@@ -1,0 +1,43 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 0 100px;
+    max-width: 100%;
+    height: 900px;
+}
+
+.img{
+    max-width: 1100px;
+    margin-top: 15%;
+}
+
+.h1{
+    color: #fff;
+}
+
+
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10%;
+    padding: 5px;
+    width: 180px;
+    border: none;
+    border-radius: 5px;
+    background-color: #24c18c;
+    color:#fff;
+    font-weight: bold;
+}
+
+
+
+span{
+    font-size: 1.5em;
+}
+
+
+
+

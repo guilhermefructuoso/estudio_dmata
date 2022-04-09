@@ -1,0 +1,57 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+input, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: none;
+   
+   
+}
+
+textarea{
+    height: 120px;
+}
+
+input[type=submit]{
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100px;
+    float: right;
+}
+
+input[type=submit]:hover{
+    background-color: rgb(177, 5, 5);
+}
+
+label{
+    color: #fff;
+}
+
+.contact{
+    border-radius: 5px;
+    background-color: #20265B;
+    padding: 20px;
+    max-width: 500px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.map{
+   width: 30vw;
+   height: 30vh;
+   padding: 10%;
+}

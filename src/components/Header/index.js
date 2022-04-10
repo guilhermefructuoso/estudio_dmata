@@ -25,7 +25,7 @@ import mic from '../../assets/header.png'
        </div>
 
        <div className="img">
-       <img src={mic} alt="imagem microfone" />
+       <img src={mic} alt="imagem microfone" width="1400" height="1500" />
        </div>
 
           

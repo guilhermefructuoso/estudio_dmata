@@ -1,7 +1,8 @@
 #servicos{
     background-image: url(../../assets/bg_services.png);
-    height: max-content;
-    padding-bottom: 40px;
+    padding-bottom: 2%;
+    width: 100%;
+    max-width: 1920px;
 }
 
 .servicos-content{
@@ -16,7 +17,7 @@
 
 h3{
     color: rgb(35, 21, 86);
-    font-size: 3em;
+    font-size: 3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,7 +57,7 @@ h3{
 
 h5{
    color: rgb(35, 21, 86);
-   font-size: 1em;
+   font-size: 1rem;
 }
 
 

@@ -1,9 +1,18 @@
-import React from 'react';
+import React from 'react'
+import "./footer.css"
+import logo from "../../assets/estudiodmata-negative.png"
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 function Footer() {
  return (
-   <div>
-       <h1>Footer</h1>
+   <div className='container-footer'>
+     <h5>Estúdio D'Mata</h5>
+    <div className="link-footer">
+      <AnchorLink href="#sobrenos">Sobre Nós</AnchorLink>
+      <AnchorLink href="#fotos">Fotos</AnchorLink>
+      <AnchorLink href="#servicos">Serviços</AnchorLink>
+      <AnchorLink href="#contato">Contato</AnchorLink>
+    </div> 
    </div>
  );
 }

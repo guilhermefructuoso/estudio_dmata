@@ -1,6 +1,8 @@
 import React from 'react';
 import {useState} from 'react'
 import { GoogleMap, useJsApiLoader, Marker } from '@react-google-maps/api';
+import {IoMdPin} from 'react-icons/io'
+import { FaEnvelope, FaPhoneAlt } from 'react-icons/fa'
 import './contato.css'
 
 function Contato() {
@@ -66,6 +68,11 @@ function Contato() {
   ) : (<></>
 
   )}
+  <div className='direction'>
+    <span><IoMdPin color="#24c18c"/> R. Dom Paulo Mariano, 352 - Sala 22 - Nova Petrópolis, São Bernardo do Campo - SP, 09770-320</span> <br/> 
+    <span><FaEnvelope color="#24c18c"/> contato@estudiodmata.com.br</span> <br/> 
+    <span><FaPhoneAlt color="#24c18c"/> (11) 98630-5629</span> 
+   </div>
    </div>
    </div>
   </section>  

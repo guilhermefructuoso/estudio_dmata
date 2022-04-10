@@ -69,8 +69,8 @@ function Contato() {
 
   )}
   <div className='direction'>
-    <span><IoMdPin color="#24c18c"/> R. Dom Paulo Mariano, 352 - Sala 22 - Nova Petrópolis, São Bernardo do Campo - SP, 09770-320</span> <br/> 
-    <span><FaEnvelope color="#24c18c"/> contato@estudiodmata.com.br</span> <br/> 
+    <span><IoMdPin color="#24c18c"/> R. Dom Paulo Mariano, 352 - Sala 22 - Nova Petrópolis, São Bernardo do Campo</span>  
+    <span><FaEnvelope color="#24c18c"/> contato@estudiodmata.com.br</span> 
     <span><FaPhoneAlt color="#24c18c"/> (11) 98630-5629</span> 
    </div>
    </div>

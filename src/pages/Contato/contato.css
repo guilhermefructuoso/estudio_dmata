@@ -5,6 +5,8 @@
     justify-content: space-around;
     width: 100%;
     max-width: 1920px;
+    margin-bottom: 60px;
+    margin-top: 50px;
 }
 
 input, textarea{
@@ -63,7 +65,7 @@ label{
 
 span{
     color: #fff;
-    
+    line-height: 40px;
 }
 
 .direction{

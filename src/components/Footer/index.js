@@ -13,7 +13,12 @@ function Footer() {
       <AnchorLink href="#servicos">Serviços</AnchorLink>
       <AnchorLink href="#contato">Contato</AnchorLink>
     </div> 
+    <div className='logo-footer'>
+    <img src={logo} alt="Sistema Logo" width="130px" height="60px" />
+    </div>
    </div>
+
+ 
  );
 }
 

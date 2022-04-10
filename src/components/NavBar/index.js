@@ -1,6 +1,6 @@
 
-import "./nav.css";
-import logo from "../../assets/estudiodmata-negative.png";
+import "./nav.css"
+import logo from "../../assets/estudiodmata-negative.png"
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 

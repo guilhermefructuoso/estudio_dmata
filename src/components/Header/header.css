@@ -39,6 +39,14 @@ span{
     font-size: 1rem;
 }
 
+@media (max-width: 1480){
+    .h1{
+        font-size: 50%;
+    }
+}
+  
+
+
 
 
 

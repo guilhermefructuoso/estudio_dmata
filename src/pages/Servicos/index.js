@@ -14,15 +14,15 @@ function Servicos() {
     
     <div className='icon'>
       <MdMovie size={100}/>
-      <h5 >Gravação de vídeo profissionais.</h5>
+      <h4>Gravação de vídeo profissionais.</h4>
       </div>  
     <div className='icon'>
       <MdLiveTv size={100}/>
-      <h5>Lives, transmissões e streaming.</h5>
+      <h4>Lives, transmissões e streaming.</h4>
       </div>
     <div className='icon'>
       <FaMicrophone size={90}/>
-      <h5>Podcast de aúdio e vídeo.</h5>
+      <h4>Podcast de aúdio e vídeo.</h4>
       </div>
       
     
@@ -31,15 +31,15 @@ function Servicos() {
 <div className='icons2'>
    <div className='icon'>
       <FaChalkboardTeacher size={100}/>
-      <h5>Treinamentos, cursos e workshops.</h5>
+      <h4>Treinamentos, cursos e workshops.</h4>
       </div>
     <div className='icon'>
       <RiSoundModuleFill size={100}/>
-      <h5>Mixagem e masterização de áudio.</h5>
+      <h4>Mixagem e masterização de áudio.</h4>
       </div>
     <div className='icon'>
       <FaGuitar size={100}/>
-      <h5>Sala de ensaio gravado.</h5>
+      <h4>Sala de ensaio gravado.</h4>
       </div>
   </div> 
   </div> 

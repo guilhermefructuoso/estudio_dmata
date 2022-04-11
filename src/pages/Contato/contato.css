@@ -73,3 +73,8 @@ span{
    flex-direction: column;
    margin-top: 1.5%;
 }
+
+span svg{
+    display: inline-block;
+    padding-right: 0.5rem;
+}

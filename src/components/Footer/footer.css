@@ -1,14 +1,14 @@
 .container-footer{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 3fr (1fr);
     padding-bottom: 10%;
-    height: 45vh;
+    height: 48vh;
     box-sizing: border-box;
     border-top: 1px solid #000;
     width: 100%;
     max-width: 1920px;
     margin: auto;
-    
+    background-color: #171c47;
 }
 
 .link-footer{
@@ -21,8 +21,7 @@
 
 .logo-footer{
     padding-top: 3%;
-    padding-left: 10%;
-   
+    padding-left: 12%;
 }
 
 a{
@@ -30,8 +29,21 @@ a{
     text-decoration: none;
 }
 
+
+
 h5{
     color: #fff;
     margin-left: 14%;
     font-size: 1.3rem;
 }
+
+.line{
+    margin-left: 14%;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+}
+
+

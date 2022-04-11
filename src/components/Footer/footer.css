@@ -1,49 +1,58 @@
 .container-footer{
-    display: grid;
-    grid-template-columns: 3fr (1fr);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  
     padding-bottom: 10%;
-    height: 48vh;
+    height: 40vh;
     box-sizing: border-box;
     border-top: 1px solid #000;
     width: 100%;
     max-width: 1920px;
-    margin: auto;
     background-color: #171c47;
 }
 
-.link-footer{
+
+#img-footer{
     display: flex;
     flex-direction: column;
-    font-size: 1.1rem;
-    margin-left: 14%;
-    line-height: 50px;
+  
+    margin-top: 20%;
 }
 
-.logo-footer{
-    padding-top: 3%;
-    padding-left: 12%;
-}
-
-a{
+.footer-link{
+    display: flex;
+    flex-direction: column;
     color: #fff;
     text-decoration: none;
+    line-height: 40px;
+ 
 }
 
 
 
 h5{
     color: #fff;
-    margin-left: 14%;
+ 
     font-size: 1.3rem;
 }
 
-.line{
-    margin-left: 14%;
-}
+
 
 .social{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    color: #fff;
+    font-size: 1.3rem;
+  
+}
+
+.parceiros{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 1.3rem;
+    
 }
 
 

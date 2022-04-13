@@ -9,12 +9,13 @@
 }
 
 .img{
-  margin-top: 20%;
+  margin-top:  15%;
 }
 
 .h1{
     color: #fff;
     font-size: 1rem;
+    margin-top: 10%;
 }
 
 
@@ -24,8 +25,8 @@ button{
     align-items: center;
     justify-content: space-around;
     margin-top: 10%;
-    padding: 5px;
-    width: 200px;
+    padding: 6px;
+    width: 40%;
     border: none;
     border-radius: 5px;
     background-color: #24c18c;
@@ -36,15 +37,9 @@ button{
 
 
 span{
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
-@media (max-width: 1480){
-    .h1{
-        font-size: 50%;
-    }
-}
-  
 
 
 

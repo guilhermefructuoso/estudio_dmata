@@ -1,6 +1,8 @@
 #sobrenos{
-    background-image: url(../../assets/bg_sobrenos.png);
-    padding-top: 120px;
+    background-image: url(../../assets/sound1.png);
+    background-size: 1890px;
+    background-repeat: no-repeat;
+    background-position: center 620px;
 }
 
 .title-container{
@@ -12,20 +14,25 @@
     font-size: 1.5rem;
     width: 100%;
     max-width: 1920px;
+  
 }
 
 p{
     font-size: 1rem;
     width: 100%;
     max-width: 800px;
+    margin-bottom: 2%;
 }
 
 
 
 video{
-    border-radius: 10px;
-    margin-top: 5%;
+    border-radius: 30px;
+    width: 1600px;
+    height: 600px;
 }
+
+
 
 
 

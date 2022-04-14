@@ -1,4 +1,4 @@
-#servicos{
+#servicos {
     background-image: url(../../assets/bg_services.png);
     background-size: 1920px;
     background-repeat: no-repeat;
@@ -6,10 +6,9 @@
     max-width: 1920px;
     height: 78vh;
     margin-top: 10%;
-   
 }
 
-.servicos-content{
+.servicos-content {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -18,9 +17,9 @@
     max-width: 1300px;
     margin-left: 15%;
     margin-top: 60px;
-} 
+}
 
-h1{
+h1 {
     color: #fff;
     font-size: 2rem;
     display: flex;
@@ -29,49 +28,27 @@ h1{
     justify-content: center;
     margin-top: 3%;
     padding-top: 7%;
-    
 }
 
-
-  
-
-
-.icons{
+.icons {
     color: rgb(35, 21, 86);
     padding-bottom: 20px;
-   
 }
 
-
-
-.icon{
+.icon {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     color: rgb(35, 21, 86);
     padding-bottom: 30px;
-   
 }
 
-.icon:hover{
-   color: red;
+.icon:hover {
+    color: red;
 }
 
-
-
-
-h4{
-   color: #fff;
-   font-size: 0.9rem;
-  
+h4 {
+    color: #fff;
+    font-size: 0.9rem;
 }
-
-
-
-
-
-
-
-
-

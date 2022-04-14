@@ -1,11 +1,11 @@
-.nav-container{
+.nav-container {
     position: fixed;
     z-index: 50;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    max-width: 1920px;
     margin: auto;
     height: 90px;
     box-sizing: border-box;
@@ -13,43 +13,20 @@
     background-color: #171c47;
 }
 
-
-
-
-.logo img{
+.logo img {
     padding-top: 1rem;
     padding-left: 15rem;
     width: 120px;
     height: 50px;
 }
 
-
-
-.link a{
-   text-decoration: none;
-   font-size: 1.1rem;
-   margin-right: 10rem;
-   color: #fff;
+.link a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin-right: 10rem;
+    color: #fff;
 }
 
-
-
-a:hover{
+a:hover {
     color: #24c18c;
 }
-
-
-
-
-      
-
-    
-
- 
-
-
-
-
-  
-
-

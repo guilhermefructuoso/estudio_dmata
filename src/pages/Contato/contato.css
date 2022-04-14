@@ -1,4 +1,4 @@
-.main{
+.main {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -6,10 +6,10 @@
     width: 100%;
     max-width: 1920px;
     margin-bottom: 50px;
-  
 }
 
-input, textarea{
+input,
+textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -17,15 +17,13 @@ input, textarea{
     margin-top: 3px;
     margin-bottom: 16px;
     resize: none;
-   
-   
 }
 
-textarea{
+textarea {
     height: 120px;
 }
 
-input[type=submit]{
+input[type='submit'] {
     background-color: red;
     color: white;
     padding: 1rem 1.5rem;
@@ -37,45 +35,42 @@ input[type=submit]{
     float: right;
 }
 
-input[type=submit]:hover{
+input[type='submit']:hover {
     background-color: rgb(177, 5, 5);
 }
 
-label{
+label {
     color: #fff;
 }
 
-.contact{
+.contact {
     border-radius: 5px;
-    background-color: #20265B;
+    background-color: #20265b;
     padding: 20px;
     max-width: 500px;
     margin-left: 80px;
     margin-top: 80px;
 }
 
-.map{
-   width: 100%;
-   max-width: 600px;
-   height: 40vh;
-   padding: 3rem;
-   
+.map {
+    width: 100%;
+    max-width: 600px;
+    height: 40vh;
+    padding: 3rem;
 }
 
-span{
+span {
     color: #fff;
     line-height: 35px;
     font-size: 1rem;
 }
 
-.direction{
-   display: flex;
-   flex-direction: column;
+.direction {
+    display: flex;
+    flex-direction: column;
 }
 
-span svg{
+span svg {
     display: inline-block;
     padding-right: 0.5rem;
 }
-
-

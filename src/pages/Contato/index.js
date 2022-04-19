@@ -1,32 +1,24 @@
 import React from 'react'
-import { useState } from 'react'
 import { GoogleMap, useJsApiLoader, Marker } from '@react-google-maps/api'
 import { IoMdPin } from 'react-icons/io'
 import { FaEnvelope, FaPhoneAlt } from 'react-icons/fa'
 import './contato.css'
+import { useForm } from 'react-hook-form'
 
 function Contato() {
-    const [field, setField] = useState({
-        name: '',
-        email: '',
-        phone: '',
-        message: '',
-    })
 
-    function handleInputChange(e) {
-        field[e.target.name] = e.target.value
-        setField(field)
-    }
-
-    function handleFormSubmit(e) {
-        e.preventDefault()
-        console.log(field)
-    }
+    const {
+        register,
+        handleSubmit,
+        formState: { errors },
+    } = useForm()
+    const onSubmit = (data) => console.log(data)
 
     const { isLoaded } = useJsApiLoader({
         id: 'google-map-script',
         googleMapsApiKey: 'AIzaSyB-pq9yyNxIIg8Z_ljFKxhfCqjmX6gkCKc',
     })
+
 
     const position = {
         lat: -23.704065,
@@ -37,44 +29,21 @@ function Contato() {
         <section id="contato">
             <div className="main">
                 <div className="contact">
-                    <form onSubmit={handleFormSubmit}>
-                        <label htmlFor="name">Nome</label>
-                        <input
-                            type="name"
-                            id="name"
-                            name="name"
-                            placeholder="Digite seu nome..."
-                            onChange={handleInputChange}
-                        />
-
-                        <label htmlFor="email">E-mail</label>
-                        <input
-                            type="text"
-                            id="email"
-                            name="email"
-                            placeholder="Digite seu email..."
-                            onChange={handleInputChange}
-                        />
-
-                        <label htmlFor="phone">Telefone</label>
-                        <input
-                            type="phone"
-                            id="phone"
-                            name="phone"
-                            placeholder="Digite seu telefone..."
-                            onChange={handleInputChange}
-                        />
-
-                        <label htmlFor="menssagem">Mensagem</label>
-                        <textarea
-                            id="message"
-                            name="message"
-                            onChange={handleInputChange}
-                        >
-                            {' '}
-                        </textarea>
-
-                        <input type="submit" value="Enviar" />
+                    <form onSubmit={handleSubmit(onSubmit)}>
+                        <label>Nome</label>
+                        <input placeholder='Digite seu nome...'  {...register('name', { required: true })} />
+                        {errors.name && <p>digite o nome antes de enviar.</p>}
+                        <label>E-mail</label>
+                        <input placeholder='Digite seu e-mail...' {...register('email', { required: true })} />
+                        {errors.email && <p>digite o email antes de enviar.</p>}
+                        <label>Telefone</label>
+                        <input placeholder='Digite seu telefone...'   {...register('phone', { required: true })} />
+                        {errors.phone && <p>digite o telefone antes de enviar.</p>}
+                        <div className='msg'>
+                        <label>Mensagem</label>
+                        <textarea placeholder='Digite sua mensagem...' {...register('message')} />
+                        </div>
+                        <input type="submit" />
                     </form>
                 </div>
 

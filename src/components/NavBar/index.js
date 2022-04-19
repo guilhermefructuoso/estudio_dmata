@@ -2,7 +2,8 @@ import './nav.css'
 import logo from '../../assets/estudiodmata-negative.png'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
-export default function NavBar() {
+function NavBar() {
+
     return (
         <section id="nav">
             <nav>
@@ -23,3 +24,5 @@ export default function NavBar() {
         </section>
     )
 }
+
+export default NavBar

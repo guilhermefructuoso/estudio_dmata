@@ -19,9 +19,11 @@ textarea {
     resize: none;
 }
 
-textarea {
+textarea{
     height: 120px;
 }
+
+
 
 input[type='submit'] {
     background-color: red;
@@ -31,7 +33,7 @@ input[type='submit'] {
     border-radius: 4px;
     cursor: pointer;
     width: 100%;
-    max-width: 100px;
+    max-width: 30%;
     float: right;
 }
 
@@ -46,17 +48,25 @@ label {
 .contact {
     border-radius: 5px;
     background-color: #20265b;
-    padding: 20px;
-    max-width: 500px;
-    margin-left: 80px;
-    margin-top: 80px;
+    padding: 5%;
+    max-width: 25%;
+    margin-left: 3%;
+    margin-top: 5%;
 }
+
+.contact p{
+    color: #ff0000;
+    font-size: 0.7rem;
+}
+
+
 
 .map {
     width: 100%;
-    max-width: 600px;
-    height: 40vh;
-    padding: 3rem;
+    max-width: 35%;
+    height: 38vh;
+    padding: 3%;
+    
 }
 
 span {

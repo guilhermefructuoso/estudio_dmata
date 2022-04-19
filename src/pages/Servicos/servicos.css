@@ -14,9 +14,9 @@
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
-    max-width: 1300px;
+    max-width: 70%;
     margin-left: 15%;
-    margin-top: 60px;
+    margin-top: 5%;
 }
 
 h1 {
@@ -30,10 +30,6 @@ h1 {
     padding-top: 7%;
 }
 
-.icons {
-    color: rgb(35, 21, 86);
-    padding-bottom: 20px;
-}
 
 .icon {
     display: flex;
@@ -41,7 +37,7 @@ h1 {
     align-items: center;
     justify-content: center;
     color: rgb(35, 21, 86);
-    padding-bottom: 30px;
+    padding-bottom: 15%;
 }
 
 .icon:hover {

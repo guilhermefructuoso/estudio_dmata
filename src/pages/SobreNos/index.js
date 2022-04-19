@@ -20,7 +20,7 @@ function SobreNos() {
                 </p>
 
                 <div className="video">
-                    <video loop autoPlay>
+                    <video>
                         <source src={composition} type="video/mp4" />
                     </video>
                 </div>

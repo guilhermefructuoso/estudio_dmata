@@ -3,7 +3,7 @@
     background-image: url(../../assets/sound1.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position: center 620px;
+    background-position: center 70%;
 }
 
 .title-container {
@@ -14,28 +14,20 @@
     color: #fff;
     font-size: 1.5rem;
     width: 100%;
-    max-width: 1920px;
 }
 
 p {
     font-size: 1rem;
     width: 100%;
-    max-width: 800px;
+    max-width: 50%;
     margin-bottom: 2%;
 }
 
 video {
     width: 100%;
-    max-width: 100rem;
-    height: 37.5rem;
 }
 
 .video video {
     border-radius: 20px;
 }
-
-@media screen and (max-width: 1480px) {
-    #sobrenos {
-        width: 1400px;
-    }
-}
+ 

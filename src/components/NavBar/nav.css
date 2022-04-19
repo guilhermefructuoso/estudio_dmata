@@ -20,6 +20,8 @@
 }
 
 .link a {
+    display: flex;
+    flex-direction: row;
     text-decoration: none;
     margin-right: 8rem;
     font-size: 1rem;
@@ -28,4 +30,8 @@
 
 a:hover {
     color: #24c18c;
+}
+
+.anchor{
+    display: inline-block;
 }

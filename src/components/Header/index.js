@@ -8,7 +8,9 @@ function Header() {
     return (
         <div className="header-container">
             <div className="title-h1">
-                <h1>O estúdio COMPLETO que você procura!</h1>
+                <div>
+                    <h1>O estúdio COMPLETO que você procura!</h1>
+                </div>
                 <div className="span-h1">
                     <span>Solicite seu orçamento</span>
                 </div>

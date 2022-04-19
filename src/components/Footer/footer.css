@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: space-around;
     padding-bottom: 10%;
-    height: 40vh;
+    height: 42vh;
     box-sizing: border-box;
     border-top: 1px solid #000;
     width: 100%;
@@ -12,7 +12,7 @@
 }
 
 #img-footer {
-    padding-top: 1.8rem;
+    padding-top: 20%;
 }
 
 .footer-link {
@@ -35,8 +35,12 @@ h5 {
     font-size: 1.3rem;
 }
 
-.footer-icon {
+.social-footer{
     display: inline-block;
+    align-items: center;
+}
+
+.footer-icon {
     padding: 10px;
     color: #fff;
 }
@@ -44,6 +48,7 @@ h5 {
 .footer-icon:hover {
     color: #24c18c;
 }
+
 
 .parceiros {
     display: flex;

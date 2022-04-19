@@ -6,7 +6,10 @@ function SobreNos() {
     return (
         <section id="sobrenos">
             <div className="title-container">
+                <div>
                 <h1>Sobre Nós</h1>
+                </div>
+                <div className='text'>
                 <p>
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
@@ -18,7 +21,7 @@ function SobreNos() {
                     the release of Letraset sheets containing Lorem Ipsum
                     passages, and more recently with desktop publishing
                 </p>
-
+                </div>
                 <div className="video">
                     <video>
                         <source src={composition} type="video/mp4" />

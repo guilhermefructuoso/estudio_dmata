@@ -11,7 +11,9 @@ function Fotos() {
     return (
         <section id="fotos">
             <div className="foto-content">
-                <h1>Confira as fotos</h1>
+                <div>
+                    <h1>Confira as fotos</h1>
+                </div>
                 <div>
                     <Carousel>
                         <div>

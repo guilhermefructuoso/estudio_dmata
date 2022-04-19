@@ -3,7 +3,6 @@ import logo from '../../assets/estudiodmata-negative.png'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 function NavBar() {
-
     return (
         <section id="nav">
             <nav>
@@ -14,10 +13,18 @@ function NavBar() {
                         </AnchorLink>
                     </div>
                     <div className="link">
-                        <AnchorLink href="#sobrenos">Sobre Nós</AnchorLink>
-                        <AnchorLink href="#fotos">Fotos</AnchorLink>
-                        <AnchorLink href="#servicos">Serviços</AnchorLink>
-                        <AnchorLink href="#contato">Contato</AnchorLink>
+                        <div className="anchor">
+                            <AnchorLink href="#sobrenos">Sobre Nós</AnchorLink>
+                        </div>
+                        <div className="anchor">
+                            <AnchorLink href="#fotos">Fotos</AnchorLink>
+                        </div>
+                        <div className="anchor">
+                            <AnchorLink href="#servicos">Serviços</AnchorLink>
+                        </div>
+                        <div className="anchor">
+                            <AnchorLink href="#contato">Contato</AnchorLink>
+                        </div>
                     </div>
                 </div>
             </nav>

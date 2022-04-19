@@ -80,6 +80,11 @@ span {
     flex-direction: column;
 }
 
+.item-direction{
+    display: flex;
+    align-items: center;
+}
+
 span svg {
     display: inline-block;
     padding-right: 0.5rem;

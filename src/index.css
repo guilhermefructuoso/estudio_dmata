@@ -26,8 +26,3 @@ code {
         monospace;
 }
 
-@media screen and (max-width: 1700px) {
-    .h1 {
-        color: red;
-    }
-}

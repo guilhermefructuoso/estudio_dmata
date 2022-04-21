@@ -3,27 +3,36 @@
     z-index: 50;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
-    margin: auto;
-    height: 90px;
+    padding: 19px;
+    height: 80px;
     box-sizing: border-box;
     border-bottom: 1px solid #000;
     background-color: #171c47;
 }
 
-.logo img {
-    padding-top: 5%;
-    margin-left: 150%;
-    width: 100%;
-    height: 50px;
+.logo{
+    display: flex;
+    width: 27%;
+    padding-left: 18.9%;
 }
 
-.link a {
+.logo img {
+    width: 109px;
+    height: 43px;
+}
+
+.menu{
+    display: flex;
+    width: 73%;
+    padding-left: 19.5%;
+}
+
+.menu a {
     display: flex;
     flex-direction: row;
     text-decoration: none;
-    margin-right: 8rem;
     font-size: 1rem;
     color: #fff;
 }
@@ -33,5 +42,54 @@ a:hover {
 }
 
 .anchor{
-    display: inline-block;
+   font-size: 50px;
+}
+
+.menu-anchor{
+    display: flex;
+    justify-content: space-between;
+    width: 62.5%;
+    height: 26px;
+}
+
+.menu-navi {
+    width: 70%;
+}
+
+.modal-button{
+    float: right;
+    border: none;
+    background-color:#171c47;
+}
+
+.close-button{
+    border: none;
+    background-color: #171c47;
+    padding: 3%;
+}
+
+.anchor-modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.anchor-modal a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7%;
+    text-decoration: none;
+    color:#fff;
+}
+
+.anchor-modal:hover{
+    background-color:#20265b;
+}
+
+
+@media screen and (max-width: 1280px){
+    .menu-anchor{
+        width: 100%;
+    }
 }

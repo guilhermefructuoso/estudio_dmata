@@ -48,15 +48,15 @@ function Contato() {
                         {errors.phone && (
                             <p>digite o telefone antes de enviar.</p>
                         )}
-                        <div className="msg">
-                            <label>Mensagem</label>
-                            <textarea
-                                placeholder="Digite sua mensagem..."
-                                {...register('message')}
-                            />
-                        </div>
+
+                        <label>Mensagem</label>
+                        <textarea
+                            placeholder="Digite sua mensagem..."
+                            {...register('message')}
+                        />
+
                         <div>
-                        <input type="submit" />
+                            <input type="submit" />
                         </div>
                     </form>
                 </div>
@@ -77,23 +77,33 @@ function Contato() {
                         <></>
                     )}
                     <div className="direction">
-                        <div className='item-direction'>
-                            <span>
-                                <IoMdPin color="#24c18c" /> R. Dom Paulo
-                                Mariano, 352 - Sala 22 - Nova Petrópolis, São
-                                Bernardo do Campo
-                            </span>
+                        <div className="item-direction">
+                            <div>
+                                <IoMdPin color="#24c18c" />
+                            </div>
+                            <div>
+                                <span>
+                                    R. Dom Paulo Mariano, 352 - Sala 22 - Nova
+                                    Petrópolis, São Bernardo do Campo - SP,
+                                    09770-320
+                                </span>
+                            </div>
                         </div>
-                        <div className='item-direction'>
-                            <span>
+                        <div className="item-direction">
+                            <div>
                                 <FaEnvelope color="#24c18c" />{' '}
-                                contato@estudiodmata.com.br
-                            </span>
+                            </div>
+                            <div>
+                                <span>contato@estudiodmata.com.br</span>
+                            </div>
                         </div>
-                        <div className='item-direction'>
-                            <span>
-                                <FaPhoneAlt color="#24c18c" /> (11) 98630-5629
-                            </span>
+                        <div className="item-direction">
+                            <div>
+                                <FaPhoneAlt color="#24c18c" />
+                            </div>
+                            <div>
+                                <span>(11) 98630-5629</span>
+                            </div>
                         </div>
                     </div>
                 </div>

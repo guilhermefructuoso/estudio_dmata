@@ -7,10 +7,11 @@ import './servicos.css'
 function Servicos() {
     return (
         <section id="servicos">
-            <div>
+          
+            <div className="master">
+            <div className="h1-services">
                 <h1>Nossos Serviços</h1>
             </div>
-            <div className="master">
                 <div className="servicos-content">
                     <div className="icons">
                         <div className="icon">

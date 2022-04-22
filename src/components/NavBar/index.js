@@ -12,10 +12,10 @@ const customStyles = {
     content: {
         width: '300px',
         padding: '0',
-        height: '310px',
+        height: 'auto',
         color: '#fff',
         background: '#171c47',
-        top: '235px',
+        top: '200px',
         right: 'auto',
         bottom: 'auto',
         borderRadius: '8px',
@@ -31,21 +31,21 @@ const customStyles = {
 }
 
 function NavBar() {
-    const [modalIsOpen, setIsOpen] = useState(false)
+    const [isModalOpened, setIsModalOpened] = useState(false)
 
     function handleOpenModal() {
-        setIsOpen(true)
+        setIsModalOpened(true)
     }
 
     function handleCloseModal() {
-        setIsOpen(false)
+        setIsModalOpened(false)
     }
 
     const isTablet = useMediaQuery('(max-width:1280px)')
     const isMobile = useMediaQuery('(max-width:700px)')
     customStyles.content.width = isMobile ? '100%' : '300px'
     customStyles.content.left = isMobile ? '50%' : '75%'
-    customStyles.content.height = isMobile ? '320px' : '310px'
+    
    
 
     return (
@@ -61,21 +61,16 @@ function NavBar() {
                         <div className="menu-navi">
                             <button
                                 className="modal-button"
-                                onClick={handleOpenModal}
+                                onClick={ isModalOpened ? handleCloseModal : handleOpenModal }
+                             
+                                
                             >
-                                <GiHamburgerMenu size={30} color="#fff" />
+                               { isModalOpened ? <RiCloseFill size={35} color="#fff" /> : <GiHamburgerMenu size={30} color="#fff" /> }
                             </button>
                             <Modal
-                                isOpen={modalIsOpen}
-                                onRequestClose={handleCloseModal}
-                                style={customStyles}
+                                
                             >
-                                <button
-                                    className="close-button"
-                                    onClick={handleCloseModal}
-                                >
-                                    <RiCloseFill size={25} color="#fff" />
-                                </button>
+                              
 
                                 <div className="menu-modal">
                                     <div className="anchor-modal">

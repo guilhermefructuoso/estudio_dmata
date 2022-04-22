@@ -47,20 +47,7 @@ function NavBar() {
                     </AnchorLink>
                 </div>
                 <div className="menu">
-                    {/*    <div className='menu-anchor'>
-                    <div className="anchor">
-                        <AnchorLink href="#sobrenos">Sobre Nós</AnchorLink>
-                    </div>
-                    <div className="anchor">
-                        <AnchorLink href="#fotos">Fotos</AnchorLink>
-                    </div>
-                    <div className="anchor">
-                        <AnchorLink href="#servicos">Serviços</AnchorLink>
-                    </div>
-                    <div className="anchor">
-                        <AnchorLink href="#contato">Contato</AnchorLink>
-                    </div>
-                    </div> */}
+                    {if(isTablet){
                     <div className="menu-navi">
                         <button
                             className="modal-button"
@@ -102,6 +89,22 @@ function NavBar() {
                             </div>
                         </Modal>
                     </div>
+                }else{
+                          <div className='menu-anchor'>
+                    <div className="anchor">
+                        <AnchorLink href="#sobrenos">Sobre Nós</AnchorLink>
+                    </div>
+                    <div className="anchor">
+                        <AnchorLink href="#fotos">Fotos</AnchorLink>
+                    </div>
+                    <div className="anchor">
+                        <AnchorLink href="#servicos">Serviços</AnchorLink>
+                    </div>
+                    <div className="anchor">
+                        <AnchorLink href="#contato">Contato</AnchorLink>
+                    </div>
+                    </div>
+                }} 
                 </div>
             </nav>
         </section>

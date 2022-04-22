@@ -72,13 +72,14 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .anchor-modal a{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 7%;
+    padding: 20px;
     text-decoration: none;
     color:#fff;
 }
@@ -87,9 +88,14 @@ a:hover {
     background-color:#20265b;
 }
 
-
-@media screen and (max-width: 1280px){
-    .menu-anchor{
-        width: 100%;
+@media (max-width: 700px){
+    .logo{
+        padding-left: 10%;
     }
 }
+
+
+
+
+
+

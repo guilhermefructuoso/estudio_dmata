@@ -11,9 +11,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #fff;
-    font-size: 1.5rem;
     width: 100%;
+}
+
+.title-container p{
+    color: #fff;
+    font-family: 'Montserrat';
 }
 
 .text{

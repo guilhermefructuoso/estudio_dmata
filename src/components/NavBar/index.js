@@ -62,13 +62,13 @@ function NavBar() {
                             <button
                                 className="modal-button"
                                 onClick={ isModalOpened ? handleCloseModal : handleOpenModal }
-                             
                                 
                             >
-                               { isModalOpened ? <RiCloseFill size={35} color="#fff" /> : <GiHamburgerMenu size={30} color="#fff" /> }
+                                { isModalOpened ? <RiCloseFill size={35} color="#fff" /> : <GiHamburgerMenu size={30} color="#fff" /> }
                             </button>
                             <Modal
-                                
+                                 isOpen={isModalOpened}
+                                 style={customStyles}
                             >
                               
 

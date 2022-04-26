@@ -12,7 +12,7 @@ function Fotos() {
         <section id="fotos">
             <div className="foto-content">
                 <div>
-                    <h1>Confira as fotos</h1>
+                    <h2>CONFIRA AS FOTOS</h2>
                 </div>
                 <div>
                     <Carousel>

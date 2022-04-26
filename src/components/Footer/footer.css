@@ -23,16 +23,11 @@
     line-height: 40px;
 }
 
-h5 {
-    color: #fff;
-    font-size: 1.3rem;
-}
+
 
 .social {
     display: flex;
     flex-direction: column;
-    color: #fff;
-    font-size: 1.3rem;
 }
 
 .social-footer{
@@ -53,8 +48,6 @@ h5 {
 .parceiros {
     display: flex;
     flex-direction: column;
-    color: #fff;
-    font-size: 1.3rem;
 }
 
 #img-parceiros {

@@ -14,7 +14,7 @@ function Footer() {
         <div className="container-footer">
             <div className="title-icon">
                 <div>
-                    <h5>Estúdio D'Mata</h5>
+                    <h4>Estúdio D'Mata</h4>
                 </div>
                 <div>
                     <AiOutlineLine
@@ -56,7 +56,7 @@ function Footer() {
 
             <div className="social">
                 <div>
-                    <h5>Redes Sociais</h5>
+                    <h4>Redes Sociais</h4>
                 </div>
                 <div>
                     <AiOutlineLine color="#24c18c" size={50} />
@@ -88,7 +88,7 @@ function Footer() {
                         >
                             <FaYoutubeSquare
                                 className="footer-icon"
-                                size={33}
+                                size={33} 
                             />
                         </a>
                     </div>
@@ -97,14 +97,14 @@ function Footer() {
 
             <div className="parceiros">
                 <div>
-                    <h5>Parceiros</h5>
+                    <h4>Parceiros</h4>
                 </div>
                 <div>
                     <AiOutlineLine color="#24c18c" size={50} />
                 </div>
 
                 <div>
-                    <SiYamahacorporation id="img-parceiros" size={50} />
+                    <SiYamahacorporation id="img-parceiros" size={50} color="#fff" />
 
                     <img
                         id="img-parceiros"

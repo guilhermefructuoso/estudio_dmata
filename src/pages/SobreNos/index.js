@@ -7,7 +7,7 @@ function SobreNos() {
         <section id="sobrenos">
             <div className="title-container">
                 <div>
-                <h1>Sobre Nós</h1>
+                <h2>SOBRE NÓS</h2>
                 </div>
                 <div className='text'>
                 <p>

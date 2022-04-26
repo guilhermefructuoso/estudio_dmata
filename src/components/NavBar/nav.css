@@ -84,8 +84,14 @@ a:hover {
     color:#fff;
 }
 
-.anchor-modal:hover{
-    background-color:#20265b;
+.anchor-modal a:hover{
+  color:#24c18c;
+}
+
+@media (max-width: 700px){
+    .menu-navi{
+        width: 100%
+    }
 }
 
 @media (max-width: 700px){

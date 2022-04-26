@@ -10,7 +10,7 @@ function Servicos() {
           
             <div className="master">
             <div className="h1-services">
-                <h1>Nossos Serviços</h1>
+                <h2>NOSSOS SERVIÇOS</h2>
             </div>
                 <div className="servicos-content">
                     <div className="icons">

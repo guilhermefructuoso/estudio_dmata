@@ -6,10 +6,7 @@ import './header.css'
 import mic from '../../assets/microfone3.png'
 import micres from '../../assets/microfone-responsive2.png'
 
-
-
 function Header() {
-
     const isTablet = useMediaQuery('(max-width: 1280px)')
 
     return (
@@ -17,7 +14,9 @@ function Header() {
             <div className="title-h1">
                 <div className="new">
                     <div className="h1-header">
-                        <h1>O estúdio COMPLETO <br/> que você procura!</h1>
+                        <h1>
+                            O estúdio COMPLETO <br /> que você procura!
+                        </h1>
                     </div>
                     <div className="span-h1">
                         <span>Solicite o seu orçamento</span>
@@ -34,14 +33,22 @@ function Header() {
             </div>
 
             {isTablet ? (
-            <div className="img-responsive">
-                <img className='microfone-responsive' src={micres} alt="imagem microfone" />
-            </div>
+                <div className="img-responsive">
+                    <img
+                        className="microfone-responsive"
+                        src={micres}
+                        alt="imagem microfone"
+                    />
+                </div>
             ) : (
-            <div className="img-header">
-                <img className='microfone' src={mic} alt="imagem microfone" />
-            </div>
-             )}
+                <div className="img-header">
+                    <img
+                        className="microfone"
+                        src={mic}
+                        alt="imagem microfone"
+                    />
+                </div>
+            )}
         </div>
     )
 }

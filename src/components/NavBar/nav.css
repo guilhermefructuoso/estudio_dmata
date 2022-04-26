@@ -12,7 +12,7 @@
     background-color: #171c47;
 }
 
-.logo{
+.logo {
     display: flex;
     width: 27%;
     padding-left: 18.9%;
@@ -23,7 +23,7 @@
     height: 43px;
 }
 
-.menu{
+.menu {
     display: flex;
     width: 73%;
     padding-left: 19.5%;
@@ -41,11 +41,11 @@ a:hover {
     color: #24c18c;
 }
 
-.anchor{
-   font-size: 50px;
+.anchor {
+    font-size: 50px;
 }
 
-.menu-anchor{
+.menu-anchor {
     display: flex;
     justify-content: space-between;
     width: 62.5%;
@@ -56,13 +56,13 @@ a:hover {
     width: 70%;
 }
 
-.modal-button{
+.modal-button {
     float: right;
     border: none;
-    background-color:#171c47;
+    background-color: #171c47;
 }
 
-.close-button{
+.close-button {
     border: none;
     background-color: #171c47;
     padding: 3%;
@@ -72,36 +72,29 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
-.anchor-modal a{
+.anchor-modal a {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px;
     text-decoration: none;
-    color:#fff;
+    color: #fff;
 }
 
-.anchor-modal a:hover{
-  color:#24c18c;
+.anchor-modal a:hover {
+    color: #24c18c;
 }
 
-@media (max-width: 700px){
-    .menu-navi{
-        width: 100%
+@media (max-width: 700px) {
+    .menu-navi {
+        width: 100%;
     }
 }
 
-@media (max-width: 700px){
-    .logo{
+@media (max-width: 700px) {
+    .logo {
         padding-left: 10%;
     }
 }
-
-
-
-
-
-

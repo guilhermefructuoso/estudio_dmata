@@ -7,7 +7,7 @@ import useMediaQuery from '@mui/material/useMediaQuery'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { RiCloseFill } from 'react-icons/ri'
 
-Modal.setAppElement('#root');
+Modal.setAppElement('#root')
 const customStyles = {
     content: {
         width: '300px',
@@ -25,9 +25,8 @@ const customStyles = {
         scroll: 'hidden',
     },
     overlay: {
-        backgroundColor: 'rgba(255, 255, 255, 0)'
-        }
-        
+        backgroundColor: 'rgba(255, 255, 255, 0)',
+    },
 }
 
 function NavBar() {
@@ -45,8 +44,6 @@ function NavBar() {
     const isMobile = useMediaQuery('(max-width:700px)')
     customStyles.content.width = isMobile ? '100%' : '300px'
     customStyles.content.left = isMobile ? '50%' : '75%'
-    
-   
 
     return (
         <section id="nav">
@@ -61,17 +58,19 @@ function NavBar() {
                         <div className="menu-navi">
                             <button
                                 className="modal-button"
-                                onClick={ isModalOpened ? handleCloseModal : handleOpenModal }
-                                
+                                onClick={
+                                    isModalOpened
+                                        ? handleCloseModal
+                                        : handleOpenModal
+                                }
                             >
-                                { isModalOpened ? <RiCloseFill size={35} color="#fff" /> : <GiHamburgerMenu size={30} color="#fff" /> }
+                                {isModalOpened ? (
+                                    <RiCloseFill size={35} color="#fff" />
+                                ) : (
+                                    <GiHamburgerMenu size={30} color="#fff" />
+                                )}
                             </button>
-                            <Modal
-                                 isOpen={isModalOpened}
-                                 style={customStyles}
-                            >
-                              
-
+                            <Modal isOpen={isModalOpened} style={customStyles}>
                                 <div className="menu-modal">
                                     <div className="anchor-modal">
                                         <AnchorLink href="#sobrenos">

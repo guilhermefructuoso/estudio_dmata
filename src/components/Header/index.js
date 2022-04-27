@@ -4,7 +4,7 @@ import ReactWhatsapp from 'react-whatsapp'
 import useMediaQuery from '@mui/material/useMediaQuery'
 import './header.css'
 import mic from '../../assets/microfone3.png'
-import micres from '../../assets/microfone-responsive2.png'
+import micres from '../../assets/microfone-alta.png'
 
 function Header() {
     const isTablet = useMediaQuery('(max-width: 1280px)')

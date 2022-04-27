@@ -15,7 +15,7 @@ const customStyles = {
         height: 'auto',
         color: '#fff',
         background: '#171c47',
-        top: '200px',
+        top: '195px',
         right: 'auto',
         bottom: 'auto',
         borderRadius: '8px',
